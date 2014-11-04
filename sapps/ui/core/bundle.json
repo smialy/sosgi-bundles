@@ -7,6 +7,7 @@
     "files":[
         "res/css/reset.css",
         "res/css/main.css",
+        "res/css/fa.min.css",
         "browser.js",
         "router.js",
         "osgi/activator.js"
