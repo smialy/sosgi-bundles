@@ -1,0 +1,11 @@
+{
+    "name": "Logger",
+    "namespace":"sapps.logger",
+    "description":"Shell",
+    "activator":"sapps.logger.Activator",
+    "version":"0.1",
+    "files":[
+        "logger.js",
+        "activator.js"
+    ]
+}

@@ -1,0 +1,11 @@
+{ 
+    "name": "IO",
+    "namespace":"sapps.core.io",
+    "activator":"sapps.core.io.Activator",
+    "description":"Connection",
+    "version":"0.1",
+    "files":[
+        "http.js",
+        "activator.js"        
+    ]
+}

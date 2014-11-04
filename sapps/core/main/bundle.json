@@ -1,0 +1,11 @@
+{ 
+    "name": "App",
+    "namespace":"sapps.core.main",
+    "description":"App",
+    "activator":"sapps.core.main.Activator",
+    "version":"0.1",
+    "files":[
+        "app.js",
+        "activator.js"
+    ]
+}

@@ -1,0 +1,37 @@
+{ 
+	"description":"Main App",
+    "name": "Main",
+    "namespace":"sapps.ui.main",
+    "activator":"sapps.ui.main.Activator",
+    "version":"0.1",
+    "files":[
+        "res/main.html",
+        "res/main.css",
+        "ui.js",
+        "main.js",
+        "osgi/activator.js"
+    ],
+    "components":[
+        {
+            "name":"MainUI",
+            "class":"sapps.ui.main.MainUI",
+            "interfaces":[],
+            "references":[{
+                "name":"Browser",
+                "assign":"$browser",
+                "interface":"sapps.api.ui.Browser"
+            },{
+                "name":"User",
+                "assign":"$users",
+                "interface":"sapps.api.user.UserManager"
+            },{
+                "name":"App",
+                "cardinality":"0..n",
+                "policy":"",
+                "interface":"sapps.api.ui.App",
+                "bind":"addApp",
+                "unbind":"removeApp",
+            }]
+        }
+    ]
+}

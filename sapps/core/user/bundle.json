@@ -1,0 +1,15 @@
+{
+    "name": "User",
+    "namespace":"sapps.core.user",
+    "description":"Shell",
+    "activator":"sapps.core.user.Activator",
+    "version":"0.1",
+    "files":[
+        "domain.js",
+        "service.js",
+        "repository.js",
+        "events.js",
+        "osgi/trackers.js",
+        "osgi/activator.js"
+    ]
+}

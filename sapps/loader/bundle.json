@@ -1,0 +1,12 @@
+{ 
+    "name": "Loader",
+    "namespace":"sapps.loader.gui",
+    "description":"Loader GUI",
+    "activator":"sapps.loader.gui.Activator",
+    "version":"0.1",
+    "files":[
+        "res/box.html",
+        "res/box.css",
+        "activator.js"
+    ]
+}

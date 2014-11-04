@@ -1,0 +1,26 @@
+
+#spryapp-loader{
+	width:400px;
+	height:160px;
+	background:#fff;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin:-90px 0 0 -200px;
+}
+
+#spryapp-loader .logo{
+	padding:13px 0;
+	background:#2299ff;
+	font-size:20px;
+	color: #fff;
+	text-align:center;
+}
+#spryapp-loader .loading{
+	font-size:20px;
+	margin:20px;
+}
+#spryapp-loader .info{
+	margin:8px 20px;
+}
+

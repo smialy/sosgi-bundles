@@ -1,0 +1,49 @@
+#login-box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:400px;
+    margin:-150px 0 0 -200px;
+    background:#fff;
+}
+#login-box h1{
+    position: absolute;
+    padding:0 0 0 5px;
+    top:-55px;
+    color:#fff;
+    border-left:solid 25px #fff;
+    font-size:20px;
+    font-weight: 300;
+}
+#login-box h2{
+    margin:0 0 15px;
+    font-weight:300;
+    font-size:23px;
+    padding:25px 25px 0;
+}
+#login-box form{
+    padding:0 25px;
+}
+#login-box .submit:after{
+    content:'';
+    clear:both;
+    display:table;
+}
+#login-box .submit .btn{
+    float:right;
+}
+#login-box .forget{
+    clear:both;
+    margin:25px 0 0;
+}
+#login-box .forget a{
+    background:#ddd;
+    display:block;
+    padding:20px 0;
+    text-align:center;
+}
+#login-box .error{
+    float:left;
+    color:#800;
+    line-height: 34px;
+}

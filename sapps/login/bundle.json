@@ -1,0 +1,15 @@
+{ 
+    "name": "Login",
+    "namespace":"sapps.login",
+    "description":"Login GUI",
+    "activator":"sapps.login.Activator",
+    "version":"0.1",
+    "files":[
+        "res/login.html",
+        "res/login.css",
+        "ui.js",
+        "osgi/tracker.js",
+        "osgi/activator.js"
+        
+    ]
+}

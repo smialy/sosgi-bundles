@@ -1,0 +1,14 @@
+{ 
+	"description":"Ui",
+    "name": "UI",
+    "namespace":"sapps.ui.core",
+    "activator":"sapps.ui.core.Activator",
+    "version":"0.1",
+    "files":[
+        "res/css/reset.css",
+        "res/css/main.css",
+        "browser.js",
+        "router.js",
+        "osgi/activator.js"
+    ]
+}

@@ -12,25 +12,45 @@
     
     <script type="text/javascript">
 
-        var logger = sjs.log.getLogger('sosgi');
+        var logger = sjs.log.getLogger();
         logger.addHandler(new sjs.log.ConsoleHandler());
 
         var framework = new sosgi.framework.FrameworkFactory().create({
-            path:'../src/'
+            debug: location.href.indexOf('debug') !== -1,
+            path: '../',
+            io: {
+                connections: [{
+                    is_default: true,
+                    name: 'api',
+                    type: 'http',
+                    params: {
+                        base: '/_demo/api'
+                    }
+                }]
+            }
         });
 
 
         framework.start();
 
-        framework.installBundle('../sosgi/api', true);
-        framework.installBundle('../sosgi/shell', true);
-        framework.installBundle('../sosgi/cm', true);
-        framework.installBundle('../sosgi/cdi', true);
-        framework.installBundle('../sosgi/ui', true);
-        framework.installBundle('../sosgi/dev/ui/core', true);
-        framework.installBundle('../sosgi/dev/ui/terminal', true);
-        framework.installBundle('../sosgi/test/clock', true);
-        framework.installBundle('../sosgi/test/timer', true);
+        framework.installBundle('sosgi/api', true);
+        framework.installBundle('sosgi/shell', true);
+        framework.installBundle('sosgi/cm', true);
+        framework.installBundle('sosgi/cdi', true);
+        framework.installBundle('sosgi/ui', true);
+        framework.installBundle('sosgi/dev/ui/core', true);
+        framework.installBundle('sosgi/dev/ui/terminal', true);
+        framework.installBundle('sosgi/test/clock', true);
+        framework.installBundle('sosgi/test/timer', true);
+        
+        framework.installBundle('sapps/api', true);
+        framework.installBundle('sapps/core/io', true);
+        framework.installBundle('sapps/core/user', true);
+        framework.installBundle('sapps/core/main', true);
+        
+        framework.installBundle('sapps/ui/core', true);
+        
+        
 
     </script>
 </body>

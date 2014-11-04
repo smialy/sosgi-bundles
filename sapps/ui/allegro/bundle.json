@@ -1,0 +1,27 @@
+{ 
+    "name": "Allegro UI",
+    "namespace":"sapps.ui.allegro",
+    "description":"Allegro UI",
+    "activator":"sapps.ui.allegro.Activator",
+    "version":"0.1",
+    "files":[
+        "res/allegro.html",
+        "app.js",
+        "activator.js"
+    ],
+    "components":[{
+        "name":"Allegro App",
+        "class":"sapps.ui.allegro.App",
+        "interfaces":["sapps.api.ui.App"],
+        "properties":{
+            "name":"allegro",
+            "url":"/allegro",
+            "label":"Allegro"
+        },
+        "references":[{
+            "name":"HTTP",
+            "assign":"$http",
+            "interface":"sapps.api.HttpConnection"                
+        }]
+    }]
+}

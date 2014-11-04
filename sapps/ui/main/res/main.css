@@ -1,0 +1,92 @@
+#sapps {
+	overflow: hidden;
+	position: absolute;
+	top:0;
+	left:0;
+	bottom: 0;
+	right: 0;
+}
+#sapps-apps-list{
+	position: absolute;
+	top:-80px;
+	left:0;
+	width: 100%;
+	background: #fff;
+	height: 80px;
+	padding: 20px;
+	z-index: 100;
+	border-bottom: solid 2px #468eee;
+	transition: top 0.4s ease 0s;
+}
+#sapps-apps-list .app{
+	float: left;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px 0 0;
+    padding: 0 10px;
+    white-space: nowrap;
+    background: #468eee;
+    cursor: pointer;
+    color:#fff;
+}
+#sapps-apps-list .app:hover{
+	background: #26b;
+}
+#sapps-nav{
+	padding:0 8px;
+}
+#sapps-nav-apps-more a{
+	padding:0 2px;
+}
+#sapps-nav-apps a,
+#sapps-nav-actions a{
+	font-size:24px;
+}
+#sapps-nav-apps{
+	float: left;
+}
+#sapps-nav-apps,
+#sapps-nav > ul{
+	display: inline-block;
+	height: 40px;
+}
+#sapps-nav > ul > li > a{
+    color:#fff;
+    text-decoration: none;
+}
+#sapps-container{
+    position:absolute;
+    top:40px;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:10;
+    background: #fff;    
+}
+#sapps-nav-user{
+	float: right;
+}
+#sapps-nav-user > li > a{
+	font-size:14px;
+}
+#sapps-nav-user > li > a .caret{
+	margin:0 0 0 6px;
+}
+
+#sapps.show-list #sapps-apps-list{
+	top:0;
+}
+#sapp-cotent{
+	
+}
+#sapp-left-menu{
+	position: absolute;
+	left:0;
+	top:0;
+	height: 100%;
+	width:300px;
+	overflow: auto;
+}
+#sapp-main{
+	margin-left:300px;
+}

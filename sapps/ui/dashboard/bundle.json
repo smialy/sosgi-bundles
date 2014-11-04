@@ -1,0 +1,15 @@
+{ 
+	
+    "name": "Dashboard UI",
+    "description":"Dashboard UI",
+    "namespace":"sapps.ui.dashboard",
+    "activator":"sapps.ui.dashboard.Activator",
+    "version":"0.1",
+    "files":[
+        "res/dashboard.html",
+        "res/dashboard.css",
+        "ui.js",
+        "app.js",
+        "activator.js"
+    ]
+}

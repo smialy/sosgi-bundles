@@ -1,0 +1,12 @@
+{ 
+    "name": "API",
+    "namespace":"sapps.api",
+    "description":"Api",
+    "version":"0.1",
+    "files":[
+        "api.js",
+        "io.js",
+        "user.js",
+        "ui.js"
+    ]
+}
