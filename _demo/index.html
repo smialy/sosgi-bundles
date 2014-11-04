@@ -32,7 +32,9 @@
 
 
         framework.start();
-
+        
+        framework.installBundle('sapps/ui/loader', true);
+        
         framework.installBundle('sosgi/api', true);
         framework.installBundle('sosgi/shell', true);
         framework.installBundle('sosgi/cm', true);
