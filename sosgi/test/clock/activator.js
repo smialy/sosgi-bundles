@@ -17,7 +17,7 @@
                 clock.update(date);
             });
 
-            ctx.services.register(sosgi.dev.core.Notify, clock);
+            ctx.services.register(sosgi.dev.ui.Notify, clock);
             for (var i = 0; i < $clock.cmds.length; i++) {
                 ctx.services.register(sosgi.api.Command, new Command(clock, $clock.cmds[i]));
             }
