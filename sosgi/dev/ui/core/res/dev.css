@@ -1,0 +1,42 @@
+.s-dev{
+    color:#555;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:100%;
+    height: 30px;
+    background: #eee;
+    border-top:solid 1px #ddd;
+    border-bottom:solid 1px #ddd;
+}
+.s-dev,
+.s-dev-item{
+    font:13px/1.4em "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+.s-dev .logo{
+    line-height: 30px;
+    margin:0 16px;
+    float:left;
+}
+.s-dev .plugins{
+    float:left;
+}
+.s-dev .plugins div{
+    border:solid 1px #ddd;
+    margin:1px;
+    padding:0 8px;
+    line-height: 26px;
+    cursor: pointer;
+}
+.s-dev .plugins .active{
+    background:#ccc;
+    border:solid 1px #aaa;
+}
+.s-dev .notifies{
+    float:right;
+}
+.s-dev .notifies .notify{
+    line-height: 30px;
+    border-left:solid 1px #ddd;
+    padding:0 8px;
+}

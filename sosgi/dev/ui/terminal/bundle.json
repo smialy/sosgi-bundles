@@ -1,0 +1,26 @@
+{ 
+    "name": "Terminal",
+    "description":"Terminal",
+    "namespace":"sosgi.dev.ui.terminal",
+    "activator":"sosgi.dev.ui.terminal.Activator",
+    "files":[
+        "res/terminal.html",
+        "res/terminal.css",
+        "event.js",
+        "view.js",
+        "terminal.js",
+        "activator.js"        
+    ],
+    "components":[
+        {
+            "name":"Terminal",
+            "class":"sosgi.dev.ui.terminal.Terminal",
+            "interfaces":["sosgi.dev.ui.Plugin"],
+            "references":[{
+                "name":"Shell",
+                "assign":"$shell",
+                "interface":"sosgi.api.Shell"
+            }]
+        }
+    ]
+}

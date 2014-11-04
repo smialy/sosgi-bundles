@@ -1,0 +1,126 @@
+.s-dev-terminal{
+    position: absolute;
+    top:20px;
+    left:20px;
+    min-width: 1024px;
+    font-size:12px;
+    background: rgba(0,0,0,0.85);
+    color:#fff;
+    display: none;
+    z-index:1000;
+    box-shadow: 0 0 3px #000;
+}
+.s-dev-terminal [draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.s-dev-terminal .head{
+    padding:0;
+    border-bottom:solid 1px #888;
+    font-size:1.2em;
+    height: 30px;
+}
+.s-dev-terminal .head-title{
+    padding:0 8px;
+    line-height: 30px;
+    display: inline-block;
+}
+.s-dev-terminal .head-btns{
+    float: right;
+    height: inherit;
+}
+.s-dev-terminal .head-btns i{
+    color: #888;
+    cursor: pointer;
+    height: 20px;
+    width:20px;
+    margin:5px 5px 5px 0;
+    line-height: 20px;
+    text-align: center;
+    font-style: normal;
+    vertical-align: middle;
+    font-size:20px;
+    box-sizing: border-box;
+}
+.s-dev-terminal .head-btns i:hover{
+    color: #eee;
+    border-color: #eee;
+}
+.s-dev-terminal.maximize{
+    width: 100%;
+    bottom:30px;
+
+}
+.s-dev-terminal .maximize-btn{
+    display: inline-block;
+    border:solid 2px #888;    
+}
+.s-dev-terminal .minimaze-btn{
+    display: none;
+    border:solid 2px #888;
+}
+.s-dev-terminal .hide-btn{
+    display: inline-block;        
+}
+.s-dev-terminal.maximize .maximize-btn{
+    display: none;
+}
+.s-dev-terminal.maximize .minimaze-btn{
+    display:inline-block;
+    
+}
+.s-dev-terminal .content{
+    margin:8px;
+    height: 300px;
+    overflow: hidden;
+    font-family:monospace;
+}
+.s-dev-terminal .output{
+    white-space: pre;
+}
+.s-dev-terminal .output > div{
+    margin:0 0 8px;
+}
+.s-dev-terminal .output .text{
+
+}
+.s-dev-terminal .output .stack{
+    margin:0 0 0 30px;
+}
+.s-dev-terminal .input{
+    display: flex;
+    flex-flow: row;
+    aling-items: stretch;
+}
+.s-dev-terminal .ps{
+    flex:0 0 auto;
+    margin: 0 5px 0 0;
+}
+.s-dev-terminal .command{
+    flex:1 0 auto;
+}
+.s-dev-terminal input{
+    font-family:monospace;
+    width: 100%;
+    border:none;
+    background: none;
+    color:#fff;
+    font-size:12px;
+    padding:0;
+}
+.s-dev-terminal.drag {
+    opacity: 0.3;
+    box-shadow: none;
+}
+.s-dev-terminal.drag .head{
+    border-bottom-color: transparent;
+}
+.s-dev-terminal.drag .head-title,
+.s-dev-terminal.drag .head-btns,
+.s-dev-terminal.drag .output,
+.s-dev-terminal.drag .input{
+    display: none;
+}
+

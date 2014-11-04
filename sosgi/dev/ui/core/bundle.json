@@ -1,0 +1,11 @@
+{ 
+    "name": "Dev",
+    "description":"Dev",
+    "namespace":"sosgi.dev.ui.core",
+    "activator":"sosgi.dev.ui.core.Activator",
+    "files":[
+        "res/dev.html",
+        "res/dev.css",
+        "activator.js"
+    ]
+}

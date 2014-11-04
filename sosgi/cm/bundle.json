@@ -1,0 +1,8 @@
+{
+    "name":"Configuration",
+    "namespace": "sosgi.cm",
+    "activator":"sosgi.cm.Activator",
+    "files":[
+        "activator.js"
+    ]
+}

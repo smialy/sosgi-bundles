@@ -1,0 +1,10 @@
+{
+    "name":"Clock",
+    "namespace": "sosgi.test.clock",
+    "activator":"sosgi.test.clock.Activator",
+    "files":[
+        "clock.js",
+        "commands.js",
+        "activator.js"
+    ]
+}

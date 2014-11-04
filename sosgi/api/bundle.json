@@ -1,0 +1,8 @@
+{
+    "name":"API",
+    "namespace": "sosgi.api",
+    "files":[
+        "api.js",
+        "ui.js"
+    ]
+}

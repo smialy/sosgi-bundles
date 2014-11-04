@@ -1,0 +1,32 @@
+{
+	"components":[
+		{
+			"name":"component.name",
+			"class":"component.impl",
+			"enabled":true,
+			"immediate":false,
+			"activate":"myactivate",
+			"deactivate":"mydeactivate",
+			"modified":"mymodified",
+			"interfaces":[
+				
+			],
+			"properties":{
+				"prop1":"value1",
+				"prop2":"value2",
+			},
+			"references":[{
+				"name":"ref",
+				"assign":"assign",
+				"interface":"ref.service",
+				"cardinality":"0..n",
+				"policy":"",
+				"filter":"ref.target",
+				"bind":"ref_bind",
+				"unbind":"ref_unbind",
+				"updated":"ref_updated",
+
+			}]
+		}
+	]
+}

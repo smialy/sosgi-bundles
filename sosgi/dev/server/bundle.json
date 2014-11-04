@@ -1,0 +1,11 @@
+{
+    "name": "Dev Server",
+    "namespace":"sosgi.dev.server",
+    "description":"Dev Server",
+    "activator":"sosgi.dev.server.Activator",
+    "version":"0.1",
+    "files":[
+        "connection.js",
+        "activator.js"
+    ]
+}

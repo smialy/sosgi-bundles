@@ -1,0 +1,11 @@
+{ 
+    "description":"Ui",
+    "name": "UI",
+    "namespace":"sosgi.ui",
+    "activator":"sosgi.ui.Activator",
+    "files":[
+        "browser.js",
+        "router.js",
+        "osgi/activator.js"
+    ]
+}

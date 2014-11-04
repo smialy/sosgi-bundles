@@ -1,0 +1,9 @@
+{
+    "name":"Timer",
+    "namespace": "sosgi.test.timer",
+    "activator":"sosgi.test.timer.Activator",
+    "files":[
+        "timer.js",
+        "activator.js"
+    ]
+}

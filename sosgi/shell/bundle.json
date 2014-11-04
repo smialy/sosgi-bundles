@@ -1,0 +1,11 @@
+{
+    "name":"Shell",
+    "namespace": "sosgi.shell",
+    "activator":"sosgi.shell.Activator",
+    "files":[
+        "shell.js",
+        "completer.js",
+        "commands.js",
+        "activator.js"
+    ]
+}
