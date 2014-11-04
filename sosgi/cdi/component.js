@@ -94,7 +94,7 @@
                 throw error('Not defined invoked method: ' + name);
             }
             //console.debug('cdi.HandlerComponet::invoke('+name+', service)',service);
-            return component[name](reference, reference);
+            return component[name](reference, service);
         };
 
         /**
