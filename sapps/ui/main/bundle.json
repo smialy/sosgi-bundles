@@ -30,7 +30,7 @@
                 "policy":"",
                 "interface":"sapps.api.ui.App",
                 "bind":"addApp",
-                "unbind":"removeApp",
+                "unbind":"removeApp"
             }]
         }
     ]
